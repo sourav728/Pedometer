@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/steps"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.tvd.step_detector.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_info"
+        android:layout_marginTop="250dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:text="Steps"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_steps"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:text="0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:text="Version           1.0"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#d32f2f"
+       android:text="Developed by        Sourav Nandi"
+       android:layout_gravity="center"/>
+
+</LinearLayout>
